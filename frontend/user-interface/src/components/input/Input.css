@@ -1,0 +1,15 @@
+.arrow {
+    width: 25px;
+    background-color: white;
+    margin-left: 6px;
+    padding: 0px 0px 0px 5px;
+    border: 0;
+}
+
+.center {
+    padding-right: 5px;
+}
+
+.width20 {
+    width: 20%
+}

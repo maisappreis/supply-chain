@@ -1,0 +1,11 @@
+.title {
+    margin-bottom: 25px;
+    padding-left: 50px;
+    color: gray;
+}
+
+.chart {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
