@@ -49,5 +49,10 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# Environment
 .venv
 .env
+.supply
+
+# Database
+*.sqlite3
