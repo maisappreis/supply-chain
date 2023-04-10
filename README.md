@@ -51,7 +51,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## 🛠️ Installation
 
-In the project directory `/backend`, create a virtual environment:
+In the project directory `/backend`:
+
+1. Create your .env file with your SECRET_KEY
+
+2. Create a virtual environment:
 ```
 python -m venv .supply
 ```
@@ -68,7 +72,7 @@ source .supply/bin/activate
 .supply\Scripts\Activate.ps1
 ```
 
-Install the dependencies:
+3. Install the dependencies:
 ```
 pip install -r requirements.txt
 ```
@@ -77,9 +81,7 @@ pip install -r requirements.txt
 
 In the project directory `/back-end`:
 
-- Create your .env file with your SECRET_KEY
-
-Activate the Virtual Environment:
+1. Activate the Virtual Environment:
 
 - On Mac (bash/zsh)
 ```
@@ -91,7 +93,7 @@ source .supply/bin/activate
 .\.supply\Scripts\Activate.ps1
 ```
 
-Run in the development mode:
+2. Run in the development mode:
 ```
 python manage.py runserver
 ```
